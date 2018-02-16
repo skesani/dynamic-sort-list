@@ -1,0 +1,6 @@
+<div *ngFor="let collecting of collection | orderBy:order:ascending">
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lavender;"> {{collecting.name}}</div>
+    <div class="col-sm-3" style="background-color:lavender;">{{ collecting.id }}</div>
+  </div>
+</div>
